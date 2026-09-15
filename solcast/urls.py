@@ -25,4 +25,6 @@ pv_power_sites = "resources/pv_power_sites"
 pv_power_site_measurements = "resources/pv_power_site_measurements"
 pv_power_site_measurements_sub_units = "resources/pv_power_site_measurements/sub_units"
 wind_power_site_measurements = "resources/wind_power_site_measurements"
-wind_power_site_measurements_sub_units = "resources/wind_power_site_measurements/sub_units"
+wind_power_site_measurements_sub_units = (
+    "resources/wind_power_site_measurements/sub_units"
+)

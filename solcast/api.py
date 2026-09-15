@@ -177,7 +177,9 @@ class Client:
         """
         return self._make_request(params, method="GET")
 
-    def post(self, params: dict, json_body: Optional[Dict[str, Any]] = None) -> Response:
+    def post(
+        self, params: dict, json_body: Optional[Dict[str, Any]] = None
+    ) -> Response:
         """Wrap _make_request to make a POST request
 
         Args:
@@ -225,7 +227,9 @@ class Client:
         """
         return self._make_request(params, method="DELETE")
 
-    def _make_request(self, params: dict, method: str, json_body: Optional[Dict[str, Any]] = None) -> Response:
+    def _make_request(
+        self, params: dict, method: str, json_body: Optional[Dict[str, Any]] = None
+    ) -> Response:
         """Make a request using urllib with the HTTP method specified
 
         Args:
